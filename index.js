@@ -1,21 +1,22 @@
 /**
- * Write a function named findMax that takes an array of numbers as input
- * and returns the largest number in the array.
+ * Write a function named twoSum that takes an array of integers `nums`
+ * and an integer `target`, and returns the indices of the two numbers
+ * such that they add up to `target`.
  *
- * Examples:
- * - findMax([3, 7, 2, 9, 1]) → 9
- * - findMax([15, 4, 22, 8]) → 22
- * - findMax([-5, -2, -10, -1]) → -1
+ * Constraints:
+ * - Exactly one valid solution exists for each input.
+ * - You may not use the same element twice.
+ * - Return the indices in any order.
  */
 
-const findMax = (numbers) => {
- //write your code here
+const twoSum = (nums, target) => {
+    //write your code here
 };
 
-// Export the function for testing
-module.exports = { findMax };
-
 // Example usage (commented out to avoid interference with tests)
-// console.log(findMax([3, 7, 2, 9, 1])); // → 9
-// console.log(findMax([15, 4, 22, 8])); // → 22
-// console.log(findMax([-5, -2, -10, -1])); // → -1
+// console.log(twoSum([2, 7, 11, 15], 9)); // → [0, 1]
+// console.log(twoSum([3, 2, 4], 6));      // → [1, 2]
+// console.log(twoSum([3, 3], 6));         // → [0, 1]
+
+// Export the function for testing
+module.exports = { twoSum };
